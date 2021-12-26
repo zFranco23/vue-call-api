@@ -57,6 +57,7 @@ export default {
     },
     watch : {
         question( value , oldValue) {
+            //Reaccionan a los cambios en la propiedad que se llama igual que el nombre de esta funcion
             this.isValidQuestion = false; //Recien empieza a escribir
             // console.log( { value , oldValue});
 
